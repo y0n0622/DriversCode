@@ -1,0 +1,32 @@
+;
+; NtDriver.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=
+ClassGuid=
+Provider=
+DriverVer=09/10/2018,16.16.49.325
+CatalogFile=NtDriver.cat
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+
+
+[Strings]
+ManufacturerName=""
+ClassName=""
+DiskName="NtDriver Source Disk"
